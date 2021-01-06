@@ -1,0 +1,212 @@
+@font-face {
+	font-family: 'Milkshake';
+	src: url('Milkshake.otf');
+	font-family: 'KaushanScript-Regular';
+	src: url('KaushanScript-Regular.otf');
+}
+h1
+{
+	color: red;
+	font-size: 64px;
+	font-family: Milkshake,KaushanScript-Regular;
+	text-align: center;
+	text-shadow: 6px 6px 6px black;
+	
+}
+	
+.text {
+	font-size: x-large;
+	text-align: center;
+	color: green;
+	box-sizing: content-box;
+	width:50%;
+	justify-content: center;
+	padding: 5px;	
+	margin-left: 25%;
+	margin-right:25%;
+	border-radius: 20px;
+	background: lightgrey;
+	opacity: 0.9;
+
+}
+body{
+	background-image: url("images/backgrd2.jpg");
+
+
+}
+
+img{
+	border:2px black solid;
+	border-radius: 10px;
+	width:300px;
+	height:300px;
+
+}
+a{
+	color:black;
+	text-decoration: none;
+	font-size: x-large;
+}
+
+
+
+del{
+	color :black;
+}
+.affiche p{
+	color: red;
+	text-align: center;
+
+}
+.affiche{
+	display: flex;
+	
+	justify-content: space-around;
+	margin: 20%;
+}
+.affiche2{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-around;
+	
+}
+
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 32px;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+#foot {
+	background: lightgrey;
+	border-radius: 3px;
+	padding: 60px 0 20px;
+	justify-content: center;
+
+
+}
+.affiche2 p{font-size: 30px}
+ @media all and (max-width: 480px)
+{
+
+}
+#searchbar
+{
+	position:relative; 
+	width:1040px; 
+	height:auto;
+}
+.formulaire{
+display:inline-block;
+}
+.formulaire .champ {
+	width:600px; 
+	height:35px;
+	margin-left: 45px;
+
+}
+.formulaire .button{ 
+	width: 35px;
+	height: 35px;
+	padding: 0;
+	 }
+.formulaire .bouton:hover {
+background: red; 
+opacity: 0.7;
+}
+#align p {
+	font-size: 50px;
+	margin: 10px;
+
+}
+#align{
+	display: flex;
+	flex-direction: column;
+	border: solid black;
+	background-color: #F5F5DC;
+	margin: 10px;
+}
+#align img{
+	max-width: 100%;
+	height: auto;
+
+}
+article p, h2{
+	font-size: 20px;
+	border:4px solid black;
+	word-wrap: break-word;
+	background-color: white;
+}
+aside img{
+	width: 400px;
+	height: 540px;
+}
+section{
+	display: flex;
+	margin: 10%;
+}
+span{ 
+font-size: 40px; }
+.com{ 
+	width:600px; 
+	height:200px;
+	margin-left: 45px;
+	padding: 0;
+ }
+ strong{
+ 	font-size: 60px
+
+ }
+ .achat{
+ 	width:400px;
+ 	height: 100px;
+ 	margin: 100px;  
+ 	background-color: blue;
+ 	font-size: 1.3em;
+ }
+ .achat:hover{
+ 	background-color: darkblue;
+
+ }
+ .entree{
+ 	width: 100%;
+ 	height: 50px;
+
+ }
+ #vali p{
+ 	font-size: 25px;	
+ }
+ .michel{
+ 	margin:25px	;
+ }
+ #vali{
+	border:4px solid black;
+ 	background-color: 	#F5F5DC;
+ 	margin-top: 10px;
+ }
+ #vali button{ 
+ 	margin-bottom:10px;
+ 	margin-left: 10px;
+ }
